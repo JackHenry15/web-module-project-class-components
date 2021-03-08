@@ -55,7 +55,7 @@ clearTask = (completed) => {
 
   render() {
     return (
-      <div>
+      <div className='App'>
         <div>
           <h2>Todo List:</h2>
           <TodoForm clearTask={this.clearTask} addTask={this.addTask} />
